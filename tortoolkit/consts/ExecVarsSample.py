@@ -11,7 +11,7 @@ except:
         BASE_URL_OF_BOT = "https://t.me/Sprittorbot"
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 3000
+        SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1131653685,-1001266398622]
@@ -35,7 +35,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "postgresql://leechbot:dkkaj0123456@postgresql/postgres"
+        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
