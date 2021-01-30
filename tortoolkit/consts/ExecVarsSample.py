@@ -11,7 +11,7 @@ except:
         BASE_URL_OF_BOT = "https://t.me/Sprittorbot"
 
         # Edit the server port if you want to keep it default though.
-        SERVPORT = 80
+        SERVPORT = 3000
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = [1131653685,-1001266398622]
